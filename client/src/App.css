@@ -1,0 +1,163 @@
+:root {
+  --main-green-light: #F9FFCB;
+  --main-green-lighter: #ECFF87;
+  --main-green: #E7FFB1;
+  --main-blue: #C9EEFF;
+  --main-red: #FFB0B0;;
+  --main-green-darker: #CAFF52;
+  --main-blue-darker: #6C8DFF;
+  --main-red-darker: #B90000;
+  --main-green-dark: #85D400;
+  --bg-dark: #C6E0FF;
+  --bg-light: #EBF2FF;
+  --bg-border: #A4C9FF;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-view {
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-green-dark, green);
+}
+
+.input-control {
+
+}
+
+.input-disabled {
+  background-color: #EDEDED!important;
+}
+
+.input-control-button {
+  width: 12em;
+  height: 3em;
+  background-color: var(--main-green-light, green);
+  border: 2px solid var(--main-green-dark, green);
+  cursor: pointer;
+}
+
+.input-control-button:hover {
+  background-color: var(--main-green-dark, green);
+}
+
+.input-control-button-active {
+  background-color: var(--main-green-dark, green);
+}
+
+.input-view {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: var(--main-green, green);
+}
+
+.input-item {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.input-item button {
+  padding: 1em 2em;
+  background-color: var(--main-green-light, green);
+  border: 2px solid var(--main-green-dark, green);
+  cursor: pointer;
+}
+
+.input-item button:hover {
+  background-color: var(--main-green-dark, green);
+}
+
+textarea {
+  width: 100%;
+  min-height: 20em;
+  padding: 1em;
+  background-color: var(--main-green-light, green);
+  border: 2px solid var(--main-green-dark, green);
+}
+
+.input-summary {
+  width: 100%;
+  padding: 1em;
+  background-color: var(--main-green-light, green);
+  border: 2px solid var(--main-green-dark, green);
+}
+
+.evaluation-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--main-green-dark, green);
+}
+
+.evaluation-item {
+  display: flex;
+  padding: 2em;
+  font-weight: bold;
+}
+
+.output-view {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: var(--main-green, green);
+}
+
+.output-item {
+  padding: 1em;
+  flex: 1 1 100%;
+  padding: 1em;
+}
+
+.option-select {
+  padding: 0.75em 3em;
+  border: 3px solid var(--main-green-dark, green);
+  background-color: var(--main-green-light, green);
+}
+
+.option-method {
+  background-color: var(--main-green-light, green);
+}
