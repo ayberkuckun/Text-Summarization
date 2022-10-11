@@ -1,5 +1,9 @@
 # Text-Summarization
 
+![Results](results.png?raw=true "Results")
+
+![Outputs](outputs.png?raw=true "Outputs")
+
 ## For client
 To install dependencies: `npm install`
 
