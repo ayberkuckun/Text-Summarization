@@ -6,6 +6,8 @@
 
 ![Outputs](outputs.png?raw=true "Outputs")
 
+The final report can be found [here](https://github.com/ayberkuckun/Text-Summarization/blob/main/Text_Summarization_Language_Engineering_Project.pdf).
+
 ## For client
 To install dependencies: `npm install`
 
